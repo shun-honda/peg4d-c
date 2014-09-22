@@ -1,5 +1,5 @@
 //
-//  StringBuilder.h
+//  string_builder.h
 //  peg4d-c
 //
 

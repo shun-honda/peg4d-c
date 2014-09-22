@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B06C06019CD3F7500D8D528 /* Main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B06C05F19CD3F7500D8D528 /* Main.c */; };
+		3B06C06019CD3F7500D8D528 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B06C05F19CD3F7500D8D528 /* main.c */; };
 		3B06C06219CD3F7500D8D528 /* peg4d_c.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B06C06119CD3F7500D8D528 /* peg4d_c.1 */; };
-		3B46DFE019CD413D00F6811E /* StringBuilder.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B46DFDF19CD413D00F6811E /* StringBuilder.c */; };
-		3B46DFE419CD752A00F6811E /* PExpression.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B46DFE319CD752A00F6811E /* PExpression.c */; };
-		3B46DFE619CDBA1400F6811E /* GrammarFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B46DFE519CDBA1400F6811E /* GrammarFormatter.c */; };
+		3B46DFE019CD413D00F6811E /* string_builder.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B46DFDF19CD413D00F6811E /* string_builder.c */; };
+		3B46DFE419CD752A00F6811E /* p_expression.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B46DFE319CD752A00F6811E /* p_expression.c */; };
+		3B46DFE619CDBA1400F6811E /* grammar_formatter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B46DFE519CDBA1400F6811E /* grammar_formatter.c */; };
+		3B46DFE819CDC2BD00F6811E /* grammer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B46DFE719CDC2BD00F6811E /* grammer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,13 +30,14 @@
 
 /* Begin PBXFileReference section */
 		3B06C05C19CD3F7500D8D528 /* peg4d-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "peg4d-c"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B06C05F19CD3F7500D8D528 /* Main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Main.c; sourceTree = "<group>"; };
+		3B06C05F19CD3F7500D8D528 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3B06C06119CD3F7500D8D528 /* peg4d_c.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = peg4d_c.1; sourceTree = "<group>"; };
-		3B46DFDF19CD413D00F6811E /* StringBuilder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StringBuilder.c; sourceTree = "<group>"; };
-		3B46DFE119CD415700F6811E /* StringBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringBuilder.h; sourceTree = "<group>"; };
-		3B46DFE219CD422300F6811E /* PExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PExpression.h; sourceTree = "<group>"; };
-		3B46DFE319CD752A00F6811E /* PExpression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PExpression.c; sourceTree = "<group>"; };
-		3B46DFE519CDBA1400F6811E /* GrammarFormatter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GrammarFormatter.c; sourceTree = "<group>"; };
+		3B46DFDF19CD413D00F6811E /* string_builder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_builder.c; sourceTree = "<group>"; };
+		3B46DFE119CD415700F6811E /* string_builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = string_builder.h; sourceTree = "<group>"; };
+		3B46DFE219CD422300F6811E /* p_expression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_expression.h; sourceTree = "<group>"; };
+		3B46DFE319CD752A00F6811E /* p_expression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = p_expression.c; sourceTree = "<group>"; };
+		3B46DFE519CDBA1400F6811E /* grammar_formatter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = grammar_formatter.c; sourceTree = "<group>"; };
+		3B46DFE719CDC2BD00F6811E /* grammer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = grammer.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +70,14 @@
 		3B06C05E19CD3F7500D8D528 /* peg4d-c */ = {
 			isa = PBXGroup;
 			children = (
-				3B06C05F19CD3F7500D8D528 /* Main.c */,
+				3B06C05F19CD3F7500D8D528 /* main.c */,
 				3B06C06119CD3F7500D8D528 /* peg4d_c.1 */,
-				3B46DFDF19CD413D00F6811E /* StringBuilder.c */,
-				3B46DFE119CD415700F6811E /* StringBuilder.h */,
-				3B46DFE219CD422300F6811E /* PExpression.h */,
-				3B46DFE319CD752A00F6811E /* PExpression.c */,
-				3B46DFE519CDBA1400F6811E /* GrammarFormatter.c */,
+				3B46DFDF19CD413D00F6811E /* string_builder.c */,
+				3B46DFE119CD415700F6811E /* string_builder.h */,
+				3B46DFE219CD422300F6811E /* p_expression.h */,
+				3B46DFE319CD752A00F6811E /* p_expression.c */,
+				3B46DFE519CDBA1400F6811E /* grammar_formatter.c */,
+				3B46DFE719CDC2BD00F6811E /* grammer.c */,
 			);
 			path = "peg4d-c";
 			sourceTree = "<group>";
@@ -129,10 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B46DFE019CD413D00F6811E /* StringBuilder.c in Sources */,
-				3B06C06019CD3F7500D8D528 /* Main.c in Sources */,
-				3B46DFE619CDBA1400F6811E /* GrammarFormatter.c in Sources */,
-				3B46DFE419CD752A00F6811E /* PExpression.c in Sources */,
+				3B46DFE019CD413D00F6811E /* string_builder.c in Sources */,
+				3B06C06019CD3F7500D8D528 /* main.c in Sources */,
+				3B46DFE619CDBA1400F6811E /* grammar_formatter.c in Sources */,
+				3B46DFE419CD752A00F6811E /* p_expression.c in Sources */,
+				3B46DFE819CDC2BD00F6811E /* grammer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

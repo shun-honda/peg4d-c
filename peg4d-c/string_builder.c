@@ -1,11 +1,11 @@
 //
-//  StringBuilder.c
+//  string_builder.c
 //  peg4d-c
 //
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "StringBuilder.h"
+#include "string_builder.h"
 
 void SB_create(StringBuilder *sb)
 {

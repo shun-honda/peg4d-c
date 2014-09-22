@@ -1,5 +1,5 @@
 //
-//  Main.c
+//  main.c
 //  peg4d-c
 //
 
